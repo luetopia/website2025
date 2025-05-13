@@ -42,22 +42,27 @@ interface Honor {
 const honors: Honor[] = [
   {
     id: 1,
-    year: "2024",
-    title: "Best Dissertation Award",
-    institution: "German Historical Association",
-    description: "For outstanding contribution to South Asian historical research"
+    year: "2017-2021",
+    title: "PhD Full Scholarship",
+    institution: "Studienstiftung des Deutschen Volkes"
   },
   {
     id: 2,
-    year: "2023",
-    title: "Young Scholar Fellowship",
-    institution: "Association for Asian Studies"
+    year: "2019",
+    title: "Dor Bahadur Bista Award",
+    institution: "Association for Nepal and Himalayan Studies"
   },
   {
     id: 3,
-    year: "2022",
-    title: "Research Excellence Award",
-    institution: "Humboldt-University Berlin"
+    year: "2013-2014",
+    title: "ERASMUS Scholarship",
+    institution: "Studies abroad at University of Vienna"
+  },
+  {
+    id: 4,
+    year: "2013-2014",
+    title: "DAAD Scholarship",
+    institution: "Studies abroad at Kathmandu University"
   }
 ];
 

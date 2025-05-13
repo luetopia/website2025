@@ -12,8 +12,8 @@ interface MediaItem {
 const mediaItems: MediaItem[] = [
   {
     id: 1,
-    title: "Lecture: Global History from the Margins",
-    description: "A discussion on the importance of peripheral perspectives in global historical narratives.",
+    title: "coming soon",
+    description: "stay tuned!",
     youtubeId: "your-youtube-id-1",
     date: "2024"
   },
