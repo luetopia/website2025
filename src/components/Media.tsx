@@ -12,10 +12,10 @@ interface MediaItem {
 const mediaItems: MediaItem[] = [
   {
     id: 1,
-    title: "coming soon",
-    description: "stay tuned!",
-    youtubeId: "your-youtube-id-1",
-    date: "2024"
+    title: "State Building & Legitimization in the Himalayas: A book presentation at SAI | Stefan Lueder",
+    description: "What if the Himalayas weren’t just a remote frontier, but a dynamic crossroads of power, identity, and global connection? In this special presentation at the South Asia Institute, Heidelberg University, historian Dr. Stefan Lueder introduces his first book: State-Building And Legitimization in the Himalayas: Entangled History Of The Gorkhā State in the Overlong 19th Century",
+    youtubeId: "https://youtu.be/dFyX694IQjY",
+    date: "2025"
   },
   // Add more media items as needed
 ];
