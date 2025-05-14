@@ -63,7 +63,7 @@ const publications: Publication[] = [
     id: 6,
     title: "Grenzen wissenschaftlicher Erkenntnis – Wissensproduktion und Wissensdiskurse um Ethnizität in Nepal",
     journal: "Südasien – Chronik / South Asia – Chronicle 3, p. 242–270",
-    year: 2021,
+    year: 2013,
     type: 'article',
     url: "https://edoc.hu-berlin.de/server/api/core/bitstreams/0731d0cd-46eb-438a-975e-9a8fdf1d6bb1/content",
     coverImage: "/images/SACover.png"
