@@ -22,9 +22,23 @@ const Hero: React.FC = () => {
               <h1 className="font-serif font-bold text-4xl md:text-5xl lg:text-6xl text-blue-900 mb-6">
                 Dr. Stefan Lueder
               </h1>
-              <h2 className="text-xl md:text-2xl text-gray-600 mb-8">
+              <h2 className="text-xl md:text-2xl text-gray-600 mb-2">
                 Assistant Professor | Department of History | South Asia Institute | Heidelberg University
               </h2>
+              <a
+                id="cy-effective-orcid-url"
+                className="inline-flex items-center text-gray-600 hover:text-blue-900 transition-colors mb-8"
+                href="https://orcid.org/0000-0002-6749-6448"
+                target="orcid.widget"
+                rel="me noopener noreferrer"
+              >
+                <img
+                  src="https://orcid.org/sites/default/files/images/orcid_16x16.png"
+                  className="w-4 h-4 mr-2"
+                  alt="ORCID iD icon"
+                />
+                https://orcid.org/0000-0002-6749-6448
+              </a>
               <p className="text-lg text-gray-700 mb-10 leading-relaxed">
                 I am a historian specializing in the globally entangled histories of the Himalaya and South Asia in the long 19th century. 
                 My research bridges regional and global history, informed by political sciences and sociology, as well as media and cultural studies.
