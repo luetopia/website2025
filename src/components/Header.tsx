@@ -22,10 +22,16 @@ const Header: React.FC = () => {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
-          <div className="flex items-center">
-            <BookOpen className="h-8 w-8 text-blue-900 mr-2" />
-            <span className="font-serif text-xl font-bold text-blue-900">Dr. Stefan Lueder</span>
-          </div>
+          <a href="#" className="flex items-center space-x-3 group">
+            <div className="relative">
+              <BookOpen className="h-8 w-8 text-blue-900 transform group-hover:scale-110 transition-transform duration-300" />
+              <div className="absolute -inset-2 bg-blue-100 rounded-full opacity-0 group-hover:opacity-30 transition-opacity duration-300"></div>
+            </div>
+            <div className="flex flex-col">
+              <span className="font-serif text-xl font-bold text-blue-900">Dr. Stefan Lueder</span>
+              <span className="text-xs text-blue-700 hidden sm:block">Historian & Science Communicator</span>
+            </div>
+          </a>
           
           <nav className="hidden md:flex space-x-8">
             <a href="#about" className="text-gray-700 hover:text-blue-900 transition-colors">About</a>
