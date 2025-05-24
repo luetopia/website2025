@@ -1,5 +1,5 @@
 import React from 'react';
-import { Twitter, Linkedin, BookOpen, Mail } from 'lucide-react';
+import { Twitter, Linkedin, BookOpen, Mail, Youtube } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -15,6 +15,9 @@ const Footer: React.FC = () => {
             Assistant Professor | Department of History | South Asia Institute | Heidelberg University
             </p>
             <div className="flex space-x-4">
+              <a target="_blank" href="https://www.youtube.com/@TheHimalayanHistorian" className="text-gray-400 hover:text-white transition-colors">
+                <Youtube size={20} />
+              </a>
               <a target="_blank" href="https://www.linkedin.com/in/stefanlueder/" className="text-gray-400 hover:text-white transition-colors">
                 <Linkedin size={20} />
               </a>
