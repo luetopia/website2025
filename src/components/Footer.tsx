@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
             Assistant Professor | Department of History | South Asia Institute | Heidelberg University
             </p>
             <div className="flex space-x-4">
-              <a target="_blank" href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a target="_blank" href="https://www.linkedin.com/in/stefanlueder/" className="text-gray-400 hover:text-white transition-colors">
                 <Linkedin size={20} />
               </a>
               <a target="_blank" href="mailto:contact@stefanlueder.com" className="text-gray-400 hover:text-white transition-colors">
