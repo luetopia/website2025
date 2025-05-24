@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Video } from 'lucide-react';
+import { Menu, X, BookOpen, Video } from 'lucide-react';
 
 const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,19 +22,10 @@ const Header: React.FC = () => {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
-          <a href="#" className="group">
-            <div className="relative flex items-center">
-              <img 
-                src="/images/logo.png" 
-                alt="Stefan Lueder Logo" 
-                className="h-12 transform group-hover:scale-105 transition-transform duration-300"
-              />
-              <span className="text-xs text-blue-700 hidden sm:block ml-3">
-                @TheHimalayanHistorian
-              </span>
-              <div className="absolute -inset-2 bg-blue-50 rounded-lg opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
-            </div>
-          </a>
+          <div className="flex items-center">
+            <BookOpen className="h-8 w-8 text-blue-900 mr-2" />
+            <span className="font-serif text-xl font-bold text-blue-900">Dr. Stefan Lueder</span>
+          </div>
           
           <nav className="hidden md:flex space-x-8">
             <a href="#about" className="text-gray-700 hover:text-blue-900 transition-colors">About</a>
